@@ -1,0 +1,43 @@
+.country-details-container {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  z-index: 1000;
+  display: flex;
+  animation-name: animateModal;
+  animation-duration: 1s;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes animateModal {
+  0% { background: transparent;}
+  100% { background: rgba(0, 0, 0, 0.8)}
+}
+
+.country-details-container
+.details {
+  width: 500px;
+  height: 400px;
+  background: white;
+  margin: 5% 0;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.country-details-container 
+.details 
+.details-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.country-details-container .details .details-header img {
+  max-width: 50px;
+  max-height: 50px;
+  margin: 30px;
+}

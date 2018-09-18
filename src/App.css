@@ -23,6 +23,7 @@
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
+  background: linear-gradient(to top right, rgb(168, 160, 160), white, rgb(131, 133, 134));
 }
 
 .country-info .country {

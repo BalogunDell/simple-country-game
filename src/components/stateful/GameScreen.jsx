@@ -1,13 +1,9 @@
 import React from "react";
 
 class GameScreen extends React.PureComponent {
-  constructor(props) {
-    super(props); 
-  
-  }
-  render(){
+  render() {
     console.log(this.props);
-    return(
+    return (
       <div>
         Welcome to game screen
       </div>
